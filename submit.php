@@ -17,6 +17,14 @@ if (empty($name) || empty($email) || empty($message)) {
     exit;
 }
 
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo json_encode([
+        "success" => false,
+        "message" => "Email-ul nu este valid!"
+    ]);
+    exit;
+}
+
 $dsn = "mysql:host=localhost;dbname=contact_form;charset=utf8mb4";
 $user = "root";
 // $pass = "pass";

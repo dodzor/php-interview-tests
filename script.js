@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const formData = new FormData(contactForm);
 
+        const email = formData.get('email');
+        if (!email.includes('@')) {
+            result.textContent = 'Email-ul nu este valid!';
+            result.classList.add('error');
+            return;
+        }
+
         const submitButton = contactForm.querySelector('button[type="submit"]');
         submitButton.disable = true;
         submitButton.innerHTML = 'Se salveaza...';

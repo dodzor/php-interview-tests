@@ -52,14 +52,3 @@ Extinde `messages.php`:
 * Folosește `htmlspecialchars()` când afișezi datele
 * Folosește `password_hash()` și `password_verify()` dacă adaugi login
 
----
-
-## ✅ Ce obții dacă le faci:
-
-* Acoperi 90% din ce poate apărea în test
-* Exersezi frontend–backend flow
-* Ai o aplicație reală mică ce rulează local sau pe un VPS
-
----
-
-Vrei să-ți ofer și o **structură de directoare + fișiere de bază** ca punct de pornire? Sau să-ți trimit arhiva cu template-ul starter?
