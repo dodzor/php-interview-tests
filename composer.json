@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Faker\\": "faker/",
+            "StudentsStorage\\": "studentsStorage/",
+            "AtmSoftware\\": "atmSoftware/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.24"
+    }
+}
