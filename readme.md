@@ -1,1 +1,1 @@
-🧠 This is a set of verious php interview test 🧠
+🧠 This is a collection of verious php interview tests 🧠

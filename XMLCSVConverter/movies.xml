@@ -1,0 +1,32 @@
+<movies>
+  <movie>
+    <title>Inception</title>
+    <year>2010</year>
+    <genre>Sci-Fi</genre>
+  </movie>
+  <movie>
+    <title>Interstellar</title>
+    <year>2014</year>
+    <genre>Sci-Fi</genre>
+  </movie>
+  <movie>
+    <title>The Dark Knight</title>
+    <year>2008</year>
+    <genre>Action</genre>
+  </movie>
+  <movie>
+    <title>The Dark Knight Rises</title>
+    <year>2012</year>
+    <genre>Action</genre>
+  </movie>
+  <movie>
+    <title>Dumb and Dumber</title>
+    <year>1994</year>
+    <genre>Comedy</genre>
+  </movie>
+  <movie>
+    <title>The Hangover</title>
+    <year>2009</year>
+    <genre>Comedy</genre>
+  </movie>
+</movies>

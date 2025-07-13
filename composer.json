@@ -4,7 +4,8 @@
             "Faker\\": "faker/",
             "StudentsStorage\\": "studentsStorage/",
             "AtmSoftware\\": "atmSoftware/",
-            "CategoriesRepository\\": "categoriesRepository/"
+            "CategoriesRepository\\": "categoriesRepository/",
+            "XmlCsvConverter\\": "XMLCSVConverter/"
         }
     },
     "require": {
