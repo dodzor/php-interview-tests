@@ -1,28 +1,6 @@
 <?php
 
-// try {
-//     $dsn = "mysql:host=localhost;dbname=contact_form;";
-//     $pdo = new PDO($dsn, 'root', 'pass');
-
-//     $sql = "SELECT message FROM contact_messages ORDER BY created_at DESC LIMIT 10";
-//     $stmt = $pdo->query($sql);
-//     $messages = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-//     echo json_encode([
-//         "success" => true,
-//         "messages" => $messages,
-//         "message" => "Mesajele au fost incarcate cu succes!"
-//     ]);
-//     exit;
-// } catch (PDOException $e) {
-//     echo json_encode([
-//         "success" => false,
-//         "message" => "Eroare la conectare la baza de date! " . $e->getMessage() 
-//     ]);
-//     exit;
-// }
-
-$dsn = "mysql:host=localhost;dbname=contact_form;";
+$dsn = "mysql:host=localhost;dbname=tests;";
 $pdo = new PDO($dsn, 'root', '');
 
 $sql = "SELECT * FROM contact_messages ORDER BY created_at DESC LIMIT 10";

@@ -6,6 +6,8 @@ class XmlCsvConverter
 {
     public function loadXml(string $xmlString): array
     {
+
+        
         // TODO: Parse and return XML as array
         $xml = simplexml_load_string($xmlString);
         $movies = [];

@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     const deleteButtons = document.querySelectorAll('.delete-btn');
-    console.log(deleteButtons);
     deleteButtons && deleteButtons.forEach(button => {
         button.addEventListener('click', (e) => {
             const id = button.getAttribute('data-id');

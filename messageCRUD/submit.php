@@ -54,9 +54,6 @@ try {
 
     echo json_encode([
         "success" => true,
-        "name" => $name,
-        "email" => $email,
-        "message" => $message,
         "date" => date("Y-m-d H:i:s"),
         "message" => "Mesajul a fost salvat cu succes!"
     ]);
