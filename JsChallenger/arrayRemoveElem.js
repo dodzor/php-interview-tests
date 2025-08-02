@@ -8,5 +8,6 @@ function removeArrElem(a, b) {
     return a.filter(item => item !== b);
 }
 
-console.log(removeArrElem([1, 2, 3, 4, 5], 2)); // [1, 3, 4, 5]
-console.log(removeArrElem([1, 2, 3, 4, 5], 3)); // [1, 2, 4, 5]
+// console.log(removeArrElem([1, 2, 3, 4, 5], 2)); // [1, 3, 4, 5]
+// console.log(removeArrElem([1, 2, 3, 4, 5], 3)); // [1, 2, 4, 5]
+

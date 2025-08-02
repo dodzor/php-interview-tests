@@ -7,17 +7,17 @@ function numberNextHigherDivisibleBy(x, y) {
     return x;
 }
 
-console.log(numberNextHigherDivisibleBy(1, 23)); // 23
-console.log(numberNextHigherDivisibleBy(23, 1)); // 23
-console.log(numberNextHigherDivisibleBy(7, 3)); // 9
-console.log(numberNextHigherDivisibleBy(-5, 7)); // 0
+// console.log(numberNextHigherDivisibleBy(1, 23)); // 23
+// console.log(numberNextHigherDivisibleBy(23, 1)); // 23
+// console.log(numberNextHigherDivisibleBy(7, 3)); // 9
+// console.log(numberNextHigherDivisibleBy(-5, 7)); // 0
 
 
 function nextHigherNumberDivisibleByB(a, b) {
     return Math.ceil(a / b) * b;
 }
 
-// console.log(nextHigherNumberDivisibleByB(16, 6)); // 18
-// console.log(nextHigherNumberDivisibleByB(13, 5)); // 15
-// console.log(nextHigherNumberDivisibleByB(37, 8)); // 40
-// console.log(nextHigherNumberDivisibleByB(37, 7)); // 42
+console.log(nextHigherNumberDivisibleByB(1, 23)); // 23
+console.log(nextHigherNumberDivisibleByB(23, 1)); // 23
+console.log(nextHigherNumberDivisibleByB(7, 3)); // 9
+console.log(nextHigherNumberDivisibleByB(-5, 7)); // 0

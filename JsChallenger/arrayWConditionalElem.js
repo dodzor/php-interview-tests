@@ -1,7 +1,9 @@
-/* Write a func that takes an array with a arbitrary number of elements and a number as an arguments.
-   Return a new array, the first element should be either the given number itself or zero if the number is smaller that 6.
-   The other elements should be the elements of the original array.
-   Try not to mutate the original array.
+/** 
+ * Write a func that takes an array with a arbitrary number of elements and a number as an arguments.
+ * Return a new array, the first element should be either the given number itself 
+ * or zero if the number is smaller that 6.
+ * The other elements should be the elements of the original array.
+ * Try not to mutate the original array.
 */
 
 function arrayWConditionalElem(arr, num) {
